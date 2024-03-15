@@ -4,4 +4,8 @@ if num > 0 :
     print("양수입니다.")
 else :
     print("음수입니다.")
-    
+    if num % 2 == 0 :
+        print("짝수입니다.")
+    else :
+        print('홀수입니다.')
+
